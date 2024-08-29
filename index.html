@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercado Camilo</title>
+    <link rel="stylesheet" href="front-end_2C_27_Renato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>mercado Camilo</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Bem-vindo à nossa loja</h2>
+            <p>Explore nossos produtos incríveis.</p>
+        </section>
+        <section class="imagem">
+            <h2>Imagem do Produto</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdClMEZRKBo9eJKEdejmb0w2UDvZWmgyZGaA&s" alt="Produto" class="produto-imagem">
+        </section>
+        <section class="mapa">
+            <h2>Localização</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d25309.395907136368!2d-51.93994854703016!3d-23.41930612847591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssupermercado%20camilo%20maring%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1724931549103!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="video">
+            <h2>Vídeo do Produto</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/r2gSBqKs3ak?si=87tcv36NfFvQcBUz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+        </main>
+    <footer>
+        <p>&copy; 2024 mercado Camilo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e0a293, #5e5046); /* Gradient de fundo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.intro, .imagem, .mapa, .video {
+    margin-bottom: 2rem;
+}
+
+.produto-imagem {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8; /* Transparência da imagem */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(66, 21, 21);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer::before {
+    content: "super mercado camilo - ";
+    font-weight: bold;
+    color: #ff7e5f;
+}
